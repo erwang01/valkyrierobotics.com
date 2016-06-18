@@ -15,6 +15,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
     <title>Valkyrie</title>
+    <link rel='shortcut icon' href='assets/img/product/logo.ico' type='image/x-icon'/ >
     <!--GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--BOOTSTRAP MAIN STYLES -->
@@ -41,19 +42,19 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!--LOGO IMAGE-->
-                <img class="navbar-brand" style="padding: 5px 10px;" src="assets/img/Valkyrie_Clash.png" width="60px" height= "100px">
-                <a class="navbar-brand" href="#">Valkyrie</a>
+                <img class="navbar-brand" style="padding: 0px 3px;" src="assets/img/logo.png" width="60px" height= "100px">
+                <a class="navbar-brand" style="padding-left: 25px;" href="#">Valkyrie</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#header-section">HOME</a></li>
-                    <li><a href="#about-section">ABOUT</a></li>
-                    <li><a href="#products-section">MY-WORK</a></li>
-                    <li><a href="#contact-section">HIRE ME</a></li>
-                    <li><a href="#contact-section">JOIN</a></li>
+                    <li class="menu-item"><a href="#header-section">HOME</a></li>
+                    <li class="menu-item"><a href="#about-section">ABOUT</a></li>
+                    <li class="menu-item"><a href="#products-section">ROBOTS</a></li>
+                    <li class="menu-item"><a href="members.html">MEMBERS</a></li>
+                    <li class="menu-item"><a href="sponsors.html">SPONSORS</a></li>
+                    <li class="menu-item"><a href="#contact-section">JOIN</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
      <!--END NAV SECTION -->
@@ -66,7 +67,10 @@
                       <strong> </strong>
                     </h1>
                      <br /> <br /> <br />
-                    <h2> Web / Graphics Designer</h2>
+                    <h2>Valkyrie</h2>
+                    <blockquote style="font:23px cursive; color: #ffffff; border-left: none; font-weight: bold;">
+                      "Innovation distinguishes between a leader and a follower." - Steve Jobs
+                    </blockquote>
                      <br />
                   <a href="#about-section">  <i class="fa fa-angle-double-down fa-5x down-icon"></i> </a>
                 </div>
@@ -83,14 +87,14 @@
                 <div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
                     <h1>Who Are We ?</h1>
                     <h1 style="color: black;">
-                       TEAM # - VALKYRIE
+                       TEAM 6332 - VALKYRIE
                     </h1>
                 </div>
             </div>
             <!-- ./ Main Heading-->
             <div class="row main-low-margin text-center">
                 <div class="col-md-3 " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                    <img class="img-circle" src="assets/img/team/team1.png" alt="">
+                    <img class="img-circle" src="assets/img/logo.png" alt="">
                     <h4><strong>Valkyrie</strong> </h4>
                     <p>
                         Team Valkyrie has recently joined the FIRST family. Please like us on Facebook, Twitter, Google+
@@ -139,7 +143,7 @@
          <div class="container" >
             <div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
                 <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Our Valuable Clients</h1>
+                    <h1>Our Robots</h1>
                     <h4>
                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                          Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
@@ -256,7 +260,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-primary">Submit Request</button>
+                                        <button type="submit" class="btn btn-primary" onclick="sendEmail()">Submit Request</button>
                                     </div>
                                 </div>
                             </div>
@@ -289,5 +293,6 @@
     <script src="assets/js/scrollReveal.js"></script>
        <!-- CUSTOM SCRIPT-->
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

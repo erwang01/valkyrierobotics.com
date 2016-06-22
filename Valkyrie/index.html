@@ -5,32 +5,32 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
 <!--<![endif]-->
-<!-- HEAD SECTION -->
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>Valkyrie</title>
-    <link rel='shortcut icon' href='assets/img/product/logo.ico' type='image/x-icon'/ >
-    <!--GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!--BOOTSTRAP MAIN STYLES -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!--FONTAWESOME MAIN STYLE -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <!--CUSTOM STYLE -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-</head>
-    <!--END HEAD SECTION -->
+  <!-- HEAD SECTION -->
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="Amit Palekar">
+      <!--[if IE]>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+          <![endif]-->
+      <title>Valkyrie</title>
+      <link rel='shortcut icon' href='assets/img/product/logo.ico' type='image/x-icon'/ >
+      <!--GOOGLE FONT -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <!--BOOTSTRAP MAIN STYLES -->
+      <link href="assets/css/bootstrap.css" rel="stylesheet" />
+      <!--FONTAWESOME MAIN STYLE -->
+      <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+      <!--CUSTOM STYLE -->
+      <link href="assets/css/style.css" rel="stylesheet" />
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <!--END HEAD SECTION -->
 <body>
      <!-- NAV SECTION -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -45,14 +45,29 @@
                 <img class="navbar-brand" style="padding: 0px 3px;" src="assets/img/logo.png" width="60px" height= "100px">
                 <a class="navbar-brand" style="padding-left: 25px;" href="#">Valkyrie</a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse" id="menu-bar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="menu-item"><a href="#header-section">HOME</a></li>
-                    <li class="menu-item"><a href="#about-section">ABOUT</a></li>
-                    <li class="menu-item"><a href="#products-section">ROBOTS</a></li>
+                    <li class="menu-item">
+                      <a data-toggle="dropdown" class="dropdown-toggle">HOME
+                        <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu shift-drop-menu">
+                        <li class="submenu">
+                          <a href="index.html#header-section">HOME</a>
+                        </li>
+                        <li class="submenu">
+                          <a href="index.html#about-section">ABOUT</a>
+                        </li>
+                        <li class="submenu">
+                          <a href="index.html#products-section">PRODUCTS</a>
+                        </li>
+                      </ul>
+                    </li>
                     <li class="menu-item"><a href="members.html">MEMBERS</a></li>
+                    <li class="menu-item"><a href="divisions.html">DIVISIONS</a></li>
                     <li class="menu-item"><a href="sponsors.html">SPONSORS</a></li>
-                    <li class="menu-item"><a href="#contact-section">JOIN</a></li>
+                    <li class="menu-item"><a href="join.html">JOIN/CONTACT</a></li>
+                    <li class="menu-item"><a href="resources.html">RESOURCES</a></li>
                 </ul>
             </div>
         </div>
@@ -75,11 +90,9 @@
                   <a href="#about-section">  <i class="fa fa-angle-double-down fa-5x down-icon"></i> </a>
                 </div>
             </div>
-
         </div>
-
     </div>
-      <!--END HEADER SECTION -->
+    <!--END HEADER SECTION -->
     <!--ABOUT SECTION -->
     <div id="about-section" >
         <div class="container" >
@@ -93,11 +106,11 @@
             </div>
             <!-- ./ Main Heading-->
             <div class="row main-low-margin text-center">
-                <div class="col-md-3 " data-scrollreveal="enter left and move 100px, wait 0.4s">
+                <div class="col-md-3 team-intro" data-scrollreveal="enter left and move 100px, wait 0.4s">
                     <img class="img-circle" src="assets/img/logo.png" alt="">
                     <h4><strong>Valkyrie</strong> </h4>
                     <p>
-                        Team Valkyrie has recently joined the FIRST family. Please like us on Facebook, Twitter, Google+
+                        Team Valkyrie has recently joined the FIRST family. Please like us on Facebook, Twitter, Google+,
                         LinkedIn and, Pinterest. Also be sure to check out our code which can be found on GitHub.
                     </p>
                     <p>
@@ -138,15 +151,16 @@
     <!-- END ABOUT SECTION -->
 
 
-    <!--WORK/PRODUCTS SECTION -->
+    <!--PRODUCTS SECTION -->
     <div id="products-section" >
          <div class="container" >
             <div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
                 <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Our Robots</h1>
+                    <h1>Our Projects</h1>
                     <h4>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                       Valkyrie is made a up of a team of avid programmers and innovative builders. Even
+                       when we're not building robots we implement new ideas and projects. Be sure to check them
+                       out below!
                     </h4>
                 </div>
             </div>
@@ -154,30 +168,27 @@
              <hr />
             <div class="row main-low-margin" >
                 <div class="col-md-10  col-md-offset-1 ">
- <div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-                    <img src="assets/img/product/prd1.png" alt="">
-                </div>
+                  <div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
+                    <img src="assets/img/product/blog.png" alt="Blog picture" width="90%" height="140%">
+                  </div>
                 <div class="col-md-8 " data-scrollreveal="enter right and move 100px, wait 0.4s">
-                    <h4 >  <strong class="color-red">Client Portfolio No # 1 </strong></h4>
+                    <h4>
+                      <strong class="color-red title-font">Team Valkyrie Blog</strong>
+                    </h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Valkyrie is a dynamic team. Due to this, the team has implemented a blog to keep our
+                        members, supporters and followers up-to-date with our ideas, ventures and events.
+                        The blog has a lot of information including how situations withing the team are dealt, Valkyire's
+                        current projects and tranings. Overall, it is is culmination of the team's current state. Be sure
+                        to check it!
                     </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                    <p>
-                        <i class="fa fa-check"></i> Responsive Design<br />
-                     <i class="fa fa-check"></i> 24x7 Support <br />
-                       <i class="fa fa-check"></i> Well Documented<br />
-                    </p>
-                    <a href="#" class="btn btn-success" >See Live Demo</a>
+                    <button class="btn btn-info">
+                      <a href="http://valkyrierobotics.github.io/" target="_blank" style="color: #2c3e50">
+                        <b>Go to blog!</b>
+                      </a>
+                    </button>
                 </div>
-                </div>
-
+              </div>
             </div>
             <!-- ./ Row Content-->
             <hr />
@@ -185,27 +196,17 @@
 
                  <div class="col-md-10  col-md-offset-1 ">
                 <div class="col-md-8 " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                    <h4 >  <strong class="color-red">Client  Portfolio No # 2 </strong></h4>
+                    <h4><strong class="color-red"></strong></h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+
                     </p>
-                    <p>
-                        <i class="fa fa-check"></i> Responsive Design<br />
-                     <i class="fa fa-check"></i> 24x7 Support <br />
-                       <i class="fa fa-check"></i> Well Documented<br />
-                    </p>
-                    <a href="#" class="btn btn-danger" > See Live Demo</a>
                 </div>
                 <div class="col-md-4 " data-scrollreveal="enter right and move 100px, wait 0.4s">
 
-                    <img class="img-margin-product" src="assets/img/product/prd1.png" alt="">
+                    <!--<img class="img-margin-product" src="assets/img/product/prd1.png" alt="">-->
                 </div>
                      </div>
             </div>
@@ -213,64 +214,8 @@
         </div>
     </div>
     <!--END WORK/PRODUCTS SECTION -->
-    <!--CONTACT SECTION -->
-    <div id="contact-section">
-        <div class="container" >
-            <div class="row main-top-margin text-center">
-                <div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
-                    <h1>Join</h1>
-                    <h4>
-                       Valkyrie holds many important and prestigious events every year to celebrate and demonstrate
-                       our inventions to the public. Sign up to stay up-to-date with our events and receive reminders
-                       about our live demos!
-                    </h4>
-                </div>
-            </div>
-            <!-- ./ Main Heading-->
-            <div class="row">
-                <div class="col-md-12  col-sm-12 ">
-                    <div class="col-md-6  " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                        <h3> Our Location</h3>
-                        <hr/>
-                        <p>
-                        103, Rola Street,<br />
-                            Demo Lane Road,<br />
-                            New York, USA.<br />
-                        Call: +23-00-89-009<br />
-                        Email: contact@valkyrierobotics.com<br />
-                        </p>
 
-                    </div>
-                    <div class="col-md-6  " data-scrollreveal="enter right and move 100px, wait 0.4s">
-                        <h3>Receive Our Newsletter</h3>
-                        <hr />
-                        <form>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-primary" onclick="sendEmail()">Submit Request</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-             <!-- ./ Row Content-->
-        </div>
-    </div>
+
     <!--END CONTACT SECTION -->
     <!--FOOTER SECTION -->
     <div id="footer">

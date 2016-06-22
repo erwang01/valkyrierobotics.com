@@ -92,6 +92,7 @@ p {
 
 #header-section {
 	background: url(../img/header.jpg) no-repeat center top;
+  transition: background 3s linear !important;
 	margin-top: -20px;
 	padding-top:20px;
 	text-align:center;
@@ -165,7 +166,7 @@ p {
 
 .navbar-inverse {
 	background: #000000;
-border-color: #5D5B66;
+  border-color: #5D5B66;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -183,7 +184,7 @@ border-color: #5D5B66;
 	color: #ffffff;
 }
 .navbar-inverse .navbar-nav > li > a {
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 /* ==========================================================================
@@ -202,5 +203,58 @@ color: #FFFFFF;
     background-color: #2F11C4;
     color: #fff;
     text-align: right;
-    padding: 10px 30px 10px 30px;
+    padding: 15px 30px 15px 30px;
+}
+
+#contact-section .container div div h4{
+  font-size: 22px;
+}
+
+#contact-section .container div div h1{
+  font-size: 40px;
+}
+
+.team-intro{
+  position: relative;
+  bottom: 11em;
+}
+
+.submenu{
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  height: 40% !important;
+  margin: 0px !important;
+  padding: 5px !important;
+}
+
+.shift-drop-menu{
+  left: 18% !important;
+}
+
+.title-font{
+  font-size: 25px !important;
+}
+
+.member-row{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.member-card{
+  display: inline-block;
+  padding-right: 5%;
+  width: 20%;
+}
+
+.member-image{
+  height: 30%;
+  width: 100%;
+  display: block;
+}
+
+.description{
+  display: block;
+  text-align: center;
 }

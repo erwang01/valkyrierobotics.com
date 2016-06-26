@@ -12,7 +12,7 @@
    GENERAL STYLES
    ============================================================*/
 body {
-   font-family:'Open Sans', sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #000;
@@ -200,7 +200,7 @@ p {
 
 
 #footer {
-    background-color: #2F11C4;
+    background-color: #000000;
     color: #fff;
     text-align: right;
     padding: 15px 30px 15px 30px;

@@ -214,6 +214,11 @@ p {
   font-size: 40px;
 }
 
+#blog-button, #blog-button :visited{
+  text-decoration: none !important;
+  outline: none;
+}
+
 .team-intro{
   position: relative;
   bottom: 11em;

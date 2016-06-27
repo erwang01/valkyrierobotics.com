@@ -219,6 +219,11 @@ p {
   outline: none;
 }
 
+#quoteBar{
+  margin-top: 70px;
+  border-color: #ff6600;
+}
+
 .team-intro{
   position: relative;
   bottom: 11em;

@@ -225,38 +225,9 @@ p {
 }
 
 .type-text{
-  animation: type-quote 6s steps(70, end), blink-caret 1s step-end 5;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: wrap;
   font: 2.2em cursive !important;
-}
-
-@-webkit-keyframes blink-caret {
-    from, to { border-color: transparent}
-    50% { border-right: .1em solid white }
-}
-
-@-moz-keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-right: .1em solid white }
-}
-
-@keyframes type-quote {
-  from {width: 0%}
-  to {width: 100%}
-  25% {text-align: center}
-  50% {text-align: center}
-  75% {text-align: center}
-}
-
-@-webkit-keyframes type-quote {
-  from {width: 0%}
-  to {width: 100%}
-}
-
-@-moz-keyframes type-quote {
-  from {width: 0%}
-  to {width: 100%}
 }
 
 .team-intro{

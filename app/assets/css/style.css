@@ -228,11 +228,11 @@ p {
   animation: type-quote 6s steps(70, end), blink-caret 1s step-end 5;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 30px !important;
+  font: 2.2em cursive !important;
 }
 
 @-webkit-keyframes blink-caret {
-    from, to { border-color: transparent }
+    from, to { border-color: transparent}
     50% { border-right: .1em solid white }
 }
 

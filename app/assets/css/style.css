@@ -231,8 +231,7 @@ p {
 }
 
 .team-intro{
-  position: relative;
-  bottom: 11em;
+  vertical-align: top !important;
 }
 
 .submenu{
@@ -273,4 +272,16 @@ p {
 .description{
   display: block;
   text-align: center;
+}
+
+@media (min-width: 990px) {
+  .team-intro{
+    position: relative;
+    top: -150px;
+  }
+
+  #shift-up{
+    position: relative;
+    top: -150px;
+  }
 }

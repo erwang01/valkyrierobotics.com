@@ -214,7 +214,7 @@ p {
   font-size: 40px;
 }
 
-#blog-button, #blog-button :visited{
+.button, .button :visited, .button :active, .button :hover{
   text-decoration: none !important;
   outline: none;
 }
@@ -272,6 +272,11 @@ p {
 .description{
   display: block;
   text-align: center;
+}
+
+.project-image{
+  width: 10%;
+  height: 10%;
 }
 
 @media (max-width: 990px) {

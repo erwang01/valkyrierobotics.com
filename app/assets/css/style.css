@@ -227,7 +227,10 @@ p {
 .type-text{
   overflow: hidden;
   white-space: wrap;
-  font: 2.2em cursive !important;
+  font: 2.7em cursive !important;
+  color: #ffffff;
+  border-left: none;
+  font-weight: bolder;
 }
 
 .team-intro{

@@ -213,14 +213,14 @@ p {
 
 
 #footer {
-    background-color: #000000;
-    color: #fff;
-    text-align: right;
-    padding: 15px 30px 15px 30px;
-    position: relative;
-    margin-top: -30px;
-    height: 30px;
-    clear: both;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;;
+  padding: 15px 30px 15px 30px;
+  position: relative;
+  margin-top: -30px;
+  height: 30px;
+  clear: both;
 }
 
 #contact-section .container div div h4{
@@ -239,15 +239,6 @@ p {
 #quoteBar{
   margin-top: 70px;
   border-color: #ff6600;
-}
-
-.type-text{
-  overflow: hidden;
-  white-space: wrap;
-  font: 2.7em cursive !important;
-  color: #ffffff;
-  border-left: none;
-  font-weight: bolder;
 }
 
 .team-intro{
@@ -297,6 +288,25 @@ p {
 .project-image{
   width: 10%;
   height: 10%;
+}
+
+#brand-name{
+  letter-spacing: 0px !important;
+  font-size: 6.5em !important;
+  position: relative;
+  top: 1.5em;
+}
+
+#move-down{
+  font-size: 6.5em;
+  position: relative;
+  top: 4em;
+}
+
+#align-right h1{
+  text-align: left;
+  position: relative;
+  left: 25%;
 }
 
 @media (max-width: 990px) {

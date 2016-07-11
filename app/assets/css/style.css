@@ -16,8 +16,21 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #000;
-    margin-top: 40px;
+    padding-top: 40px;
     line-height:1px;
+}
+
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    min-height:100%;
+}
+
+#main {
+    padding-bottom: 30px;
+    overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -204,6 +217,10 @@ p {
     color: #fff;
     text-align: right;
     padding: 15px 30px 15px 30px;
+    position: relative;
+    margin-top: -30px;
+    height: 30px;
+    clear: both;
 }
 
 #contact-section .container div div h4{

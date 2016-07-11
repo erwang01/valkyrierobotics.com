@@ -66,16 +66,17 @@
                     <div class="col-md-8" data-scrollreveal="enter left and move 100px, wait 0.4s">
                       <h3>Receive Our Newsletter</h3>
                       <hr />
-                      <form>
+                      <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+                      <form target="dummyframe" action="https://api:key-48ae1abf45f74496914fbc6b626e93c2@api.mailgun.net/v3/lists/interest@valkyrierobotics.com/members" method="post">
                           <div class="row">
                               <div class="col-md-12">
                                   <div class="form-group">
-                                      <input type="text" class="form-control" required="required" placeholder="Name">
+                                      <input type="text" name="name" class="form-control" required="required" placeholder="Name">
                                   </div>
                               </div>
                               <div class="col-md-12">
                                   <div class="form-group">
-                                      <input type="text" class="form-control" required="required" placeholder="Email address">
+                                      <input type="text" name="address" class="form-control" required="required" placeholder="Email address">
                                   </div>
                               </div>
                           </div>
